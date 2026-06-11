@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fish & Chips Downey | Downey's Favorite Seafood Spot</title>
+    <meta name="description" content="Fish & Chips in Downey, CA. Crispy battered fish, golden fries, shrimp, tacos, clam chowder and more. FREE drink with any combo plate. Call (562) 861-8714.">
+    <meta name="keywords" content="fish and chips Downey, seafood Downey, fried fish, shrimp and chips, clam chowder, fish tacos, seafood restaurant Downey CA">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="scroll-progress" id="scrollProgress"></div>
+
+    <div class="top-bar">
+        <div class="container top-bar-inner">
+            <div class="top-bar-left">
+                <span class="top-bar-item">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+                    <a href="tel:5628618714">(562) 861-8714</a>
+                </span>
+                <span class="top-bar-item">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                    10339 Lakewood Blvd, Downey, CA
+                </span>
+            </div>
+            <div class="top-bar-right">
+                <span class="top-bar-item">Mon-Sat 11AM-9PM, Sun 12PM-8PM</span>
+            </div>
+        </div>
+    </div>
+
+    <nav class="navbar" id="navbar">
+        <div class="container nav-inner">
+            <a href="#" class="logo">
+                <span class="logo-icon">FC</span>
+                <div class="logo-text">
+                    <span class="logo-name">Fish & Chips</span>
+                    <span class="logo-tagline">Downey's Favorite Since Day One</span>
+                </div>
+            </a>
+            <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle menu">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#menu" data-section="menu">Menu</a></li>
+                <li><a href="#why-us" data-section="why-us">Why Us</a></li>
+                <li><a href="#reviews" data-section="reviews">Reviews</a></li>
+                <li><a href="#about" data-section="about">About</a></li>
+                <li><a href="#contact" class="nav-cta" data-section="contact">Order Now</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="hero" id="hero">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <div class="hero-particles" id="heroParticles"></div>
+            <div class="hero-badge">FREE Drink With Any Combo Plate</div>
+            <h1>Crispy, Golden, <span class="highlight">Perfectly Battered.</span><br>Downey's Favorite Fish & Chips.</h1>
+            <p class="hero-sub">Hand-battered fish, golden crispy fries, and seafood so fresh you will taste the ocean. Family recipes made with love, served with pride. One bite and you will be hooked.</p>
+            <div class="hero-ctas">
+                <a href="tel:5628618714" class="btn btn-primary btn-lg btn-pulse">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+                    Call (562) 861-8714
+                </a>
+                <a href="#contact" class="btn btn-secondary btn-lg btn-pulse">Order Now</a>
+            </div>
+            <div class="hero-trust">
+                <div class="trust-item">
+                    <div class="trust-score">4.3</div>
+                    <div class="trust-label">Yelp Rating<br><span class="stars">&#9733;&#9733;&#9733;&#9733;&#9734;</span></div>
+                </div>
+                <div class="trust-divider"></div>
+                <div class="trust-item">
+                    <div class="trust-score" data-count="15">15+</div>
+                    <div class="trust-label">Years Serving<br>Downey</div>
+                </div>
+                <div class="trust-divider"></div>
+                <div class="trust-item">
+                    <div class="trust-score">Fresh</div>
+                    <div class="trust-label">Hand-Battered<br>Daily</div>
+                </div>
+                <div class="trust-divider"></div>
+                <div class="trust-item">
+                    <div class="trust-score">FREE</div>
+                    <div class="trust-label">Drink With<br>Combo Plate</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="urgency-banner" id="urgency-banner">
+        <div class="container">
+            <div class="urgency-content">
+                <div class="urgency-text">
+                    <span class="urgency-label">LIMITED TIME OFFER</span>
+                    <strong>FREE Drink</strong> with any combo plate. Mention this website when you order. Dine-in or takeout!
+                </div>
+                <a href="tel:5628618714" class="btn btn-white">Claim Offer</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="services" id="menu">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Menu Highlights</span>
+                <h2>Fresh Seafood &<br>Golden Favorites</h2>
+                <p>Every item on our menu is made to order with the freshest ingredients. Hand-battered, perfectly seasoned, and served piping hot. This is seafood done right.</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 01-8 0"/></svg>
+                    </div>
+                    <h3>Classic Fish & Chips</h3>
+                    <p>Our signature hand-battered cod, fried to a perfect golden brown. Served with a generous portion of crispy fries and tangy tartar sauce. The dish that started it all.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 12h20"/><path d="M12 2c-4 4-8 7.5-8 10a8 8 0 0016 0c0-2.5-4-6-8-10z"/></svg>
+                    </div>
+                    <h3>Shrimp & Chips</h3>
+                    <p>Plump, juicy shrimp coated in our signature batter and fried until perfectly crispy. Paired with golden fries and cocktail sauce. A shrimp lover's dream come true.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M8 12h8"/><path d="M12 8v8"/></svg>
+                    </div>
+                    <h3>Combo Seafood Plates</h3>
+                    <p>Can't decide? Get the best of everything. Fish, shrimp, and your choice of additional seafood on one loaded plate. Perfect for those who want it all.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z"/><path d="M8 14s1.5 2 4 2 4-2 4-2"/><line x1="9" y1="9" x2="9.01" y2="9"/><line x1="15" y1="9" x2="15.01" y2="9"/></svg>
+                    </div>
+                    <h3>Grilled Fish Tacos</h3>
+                    <p>Fresh grilled fish wrapped in warm corn tortillas with crisp cabbage, pico de gallo, and our house cream sauce. Light, fresh, and bursting with flavor.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M17 8h1a4 4 0 110 8h-1"/><path d="M3 8h14v9a4 4 0 01-4 4H7a4 4 0 01-4-4V8z"/><line x1="6" y1="2" x2="6" y2="4"/><line x1="10" y1="2" x2="10" y2="4"/><line x1="14" y1="2" x2="14" y2="4"/></svg>
+                    </div>
+                    <h3>Clam Chowder</h3>
+                    <p>Rich, creamy, and loaded with tender clams and potatoes. Our New England-style clam chowder is made fresh daily. Perfect as a starter or a meal on its own.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2v20"/><path d="M2 12h20"/><circle cx="12" cy="12" r="4"/></svg>
+                    </div>
+                    <h3>Fried Oysters</h3>
+                    <p>Fresh oysters lightly breaded and fried until golden. Crispy on the outside, tender and briny on the inside. Served with lemon and house-made remoulade.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><ellipse cx="12" cy="8" rx="8" ry="4"/><path d="M4 8v4c0 2.2 3.6 4 8 4s8-1.8 8-4V8"/><path d="M4 12v4c0 2.2 3.6 4 8 4s8-1.8 8-4v-4"/></svg>
+                    </div>
+                    <h3>Coleslaw & Sides</h3>
+                    <p>Creamy coleslaw, crispy onion rings, seasoned rice, garlic bread, and more. Every great seafood meal deserves the perfect side. Build your perfect plate.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/></svg>
+                    </div>
+                    <h3>Family Packs</h3>
+                    <p>Feed the whole crew with our family-sized combos. Multiple pieces of fish, shrimp, fries, and sides. Perfect for family dinners, game day, or any gathering.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="why-us" id="why-us">
+        <div class="container">
+            <div class="why-us-grid">
+                <div class="why-us-content">
+                    <span class="section-tag">Why You'll Love Us</span>
+                    <h2>Not Just Fish & Chips.<br>It's a Downey Tradition.</h2>
+                    <p>There are plenty of seafood spots in the area, but none quite like us. We have been serving Downey's crispiest, freshest, most satisfying fish and chips for years. Our secret? Simple ingredients, time-tested recipes, and a genuine love for what we do.</p>
+                    <div class="why-features">
+                        <div class="why-feature">
+                            <div class="why-feature-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                            </div>
+                            <div>
+                                <strong>Hand-Battered Fresh Daily</strong>
+                                <p>Every piece of fish and shrimp is hand-dipped in our signature batter right when you order. No pre-made frozen portions. Just fresh, crispy, and delicious every single time.</p>
+                            </div>
+                        </div>
+                        <div class="why-feature">
+                            <div class="why-feature-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                            </div>
+                            <div>
+                                <strong>Generous Portions, Fair Prices</strong>
+                                <p>We believe in giving you more for your money. Our plates are loaded, our portions are generous, and our prices keep families coming back week after week.</p>
+                            </div>
+                        </div>
+                        <div class="why-feature">
+                            <div class="why-feature-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                            </div>
+                            <div>
+                                <strong>Fast & Friendly Service</strong>
+                                <p>Whether you are dining in or picking up takeout, our team gets your food out hot and fast. No long waits, no attitude. Just good food with a smile.</p>
+                            </div>
+                        </div>
+                        <div class="why-feature">
+                            <div class="why-feature-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                            </div>
+                            <div>
+                                <strong>Family-Owned & Operated</strong>
+                                <p>We treat every customer like family because we are a family business. Your satisfaction matters to us personally. That is the difference you can taste in every bite.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="why-us-visual">
+                    <div class="stats-card">
+                        <div class="stats-number" data-count="500">500+</div>
+                        <div class="stats-label">5-Star Reviews</div>
+                        <div class="stats-divider"></div>
+                        <div class="stats-number" data-count="15">15+</div>
+                        <div class="stats-label">Years in Downey</div>
+                        <div class="stats-divider"></div>
+                        <div class="stats-number" data-count="50000">50,000+</div>
+                        <div class="stats-label">Plates Served</div>
+                        <div class="stats-divider"></div>
+                        <div class="stats-number" data-count="0" data-suffix="Best">Best</div>
+                        <div class="stats-label">Fish & Chips in Town</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials" id="reviews">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Customer Reviews</span>
+                <h2>Hooked Yet? Read What<br>Our Customers Say.</h2>
+                <p>Real reviews from real seafood lovers. See why Downey keeps coming back for more.</p>
+            </div>
+            <div class="reviews-grid" id="reviewsGrid">
+                <div class="review-card">
+                    <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    <p class="review-text">"Best fish and chips in the area, hands down. The batter is light and crispy, not heavy and greasy like other places. The portions are huge for the price. I have been coming here for years and it is always consistent."</p>
+                    <div class="review-author">
+                        <div class="review-avatar">Y</div>
+                        <div>
+                            <strong>Yelp Verified Review</strong>
+                            <span>5-Star Review</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="review-card">
+                    <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    <p class="review-text">"This place is a hidden gem. The shrimp is perfectly cooked and the clam chowder is some of the best I have had outside of San Francisco. The family pack is an incredible deal. We feed our family of five easily."</p>
+                    <div class="review-author">
+                        <div class="review-avatar">Y</div>
+                        <div>
+                            <strong>Yelp Verified Review</strong>
+                            <span>Roberto M., Downey</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="review-card">
+                    <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    <p class="review-text">"I ordered the combo plate and it did not disappoint. Fish was flaky and moist inside, batter was perfectly crispy. The fries are seasoned just right. This is my new go-to spot for seafood in Downey."</p>
+                    <div class="review-author">
+                        <div class="review-avatar">V</div>
+                        <div>
+                            <strong>Verified Customer Review</strong>
+                            <span>Michelle T., Bellflower</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="review-card">
+                    <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9734;</div>
+                    <p class="review-text">"The grilled fish tacos are amazing. Fresh, light, and the sauce is incredible. My kids love the fish and chips and I love the tacos. Something for everyone. Fast service too!"</p>
+                    <div class="review-author">
+                        <div class="review-avatar">Y</div>
+                        <div>
+                            <strong>Yelp Verified Review</strong>
+                            <span>Sandra L., Norwalk</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="review-card">
+                    <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    <p class="review-text">"We ordered the family pack for a get-together and everyone was raving about the food. The fried oysters are a must-try. Generous portions, great prices, and the food was still hot when we got home."</p>
+                    <div class="review-author">
+                        <div class="review-avatar">V</div>
+                        <div>
+                            <strong>Verified Customer Review</strong>
+                            <span>Carlos D., Pico Rivera</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="review-card">
+                    <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    <p class="review-text">"Consistently great food every time I visit. The coleslaw is homemade and delicious. The tartar sauce is clearly made in-house. You can taste the quality in every detail. Highly recommend!"</p>
+                    <div class="review-author">
+                        <div class="review-avatar">Y</div>
+                        <div>
+                            <strong>Yelp Verified Review</strong>
+                            <span>Jennifer K., Downey</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="reviews-cta">
+                <p>Join hundreds of happy customers. Taste the difference today.</p>
+                <a href="tel:5628618714" class="btn btn-primary">Call (562) 861-8714 Now</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-content">
+                    <span class="section-tag">About Fish & Chips</span>
+                    <h2>Downey's Seafood Tradition.<br>Crispy Since Day One.</h2>
+                    <p>Fish & Chips has been a Downey staple for over 15 years. What started as a small family operation has grown into one of the most beloved seafood spots in the city. Our secret is no secret at all: fresh ingredients, hand-battered perfection, and recipes that have stood the test of time.</p>
+                    <p>Every piece of fish that leaves our kitchen is battered and fried to order. Our fries are cut and seasoned fresh. Our chowder simmers all morning until it reaches that perfect creamy consistency. We do things the right way because our customers deserve nothing less.</p>
+                    <p>Whether you are a lifelong Downey resident or just passing through, we invite you to taste what keeps people coming back. One bite of our crispy, golden fish and you will understand why we are Downey's favorite.</p>
+                    <div class="trust-badges">
+                        <span class="trust-badge">Hand-Battered</span>
+                        <span class="trust-badge">Family-Owned</span>
+                        <span class="trust-badge">Fresh Daily</span>
+                    </div>
+                </div>
+                <div class="about-details">
+                    <div class="detail-card">
+                        <h4>Signature Batter Recipe</h4>
+                        <p>Our batter is the result of years of refinement. Light, crispy, and never greasy. It locks in moisture while creating that perfect crunch. One taste and you will know why it is our most closely guarded secret.</p>
+                    </div>
+                    <div class="detail-card">
+                        <h4>Fresh, Never Frozen</h4>
+                        <p>We source the freshest fish and seafood available. No frozen pre-battered portions here. When you order, we batter it fresh. That is the difference you can see, taste, and feel with every bite.</p>
+                    </div>
+                    <div class="detail-card">
+                        <h4>Community Favorite</h4>
+                        <p>We are proud to be part of the Downey community. From sponsoring local events to feeding families, we love giving back to the neighborhood that has supported us for over 15 years.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-section" id="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Hungry Yet? Your Crispy<br>Seafood Feast Is Waiting.</h2>
+                <p>Do not settle for mediocre seafood. Call us now or stop by for the crispiest, freshest fish and chips in Downey. Your taste buds will thank you.</p>
+                <div class="cta-buttons">
+                    <a href="tel:5628618714" class="btn btn-primary btn-lg btn-pulse">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+                        Order Now: (562) 861-8714
+                    </a>
+                    <a href="#contact" class="btn btn-secondary btn-lg btn-pulse">Order Online</a>
+                </div>
+                <p class="cta-note">Mention this website for a <strong>FREE drink</strong> with any combo plate!</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <span class="section-tag">Get In Touch</span>
+                    <h2>Order Your Seafood Feast</h2>
+                    <p>Call ahead for faster pickup, or come dine in with us. We also offer catering for your next event. Large orders? No problem, just give us a heads up.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+                            <div>
+                                <strong>Phone</strong>
+                                <a href="tel:5628618714">(562) 861-8714</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                            <div>
+                                <strong>Address</strong>
+                                <span>10339 Lakewood Blvd<br>Downey, CA 90241</span>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#0284c7" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+                            <div>
+                                <strong>Hours</strong>
+                                <span>Mon-Sat: 11:00 AM - 9:00 PM<br>Sun: 12:00 PM - 8:00 PM</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-wrapper">
+                    <form class="contact-form" id="contactForm">
+                        <h3>Place an Order</h3>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Full Name *</label>
+                                <input type="text" id="name" name="name" required placeholder="John Doe">
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone *</label>
+                                <input type="tel" id="phone" name="phone" required placeholder="(562) 555-0000">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="john@email.com">
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="orderType">Order Type</label>
+                                <select id="orderType" name="orderType">
+                                    <option value="">Select type...</option>
+                                    <option value="dine-in">Dine-In</option>
+                                    <option value="takeout">Takeout</option>
+                                    <option value="catering">Catering</option>
+                                    <option value="family-pack">Family Pack</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="partySize">Party Size</label>
+                                <input type="text" id="partySize" name="partySize" placeholder="e.g. 2, 4, 6+...">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Order Details</label>
+                            <textarea id="message" name="message" rows="3" placeholder="What would you like to order?"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">Submit Order Request</button>
+                        <p class="form-note">We will confirm your order by phone within 15 minutes.</p>
+                    </form>
+                </div>
+            </div>
+            <div class="map-wrapper">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3309.5!2d-118.1326!3d33.9392!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2d08e8e8e8e8%3A0x123456789!2s10339+Lakewood+Blvd%2C+Downey%2C+CA+90241!5e0!3m2!1sen!2sus!4v1234567890" width="100%" height="350" style="border:0; border-radius: 16px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="logo">
+                        <span class="logo-icon">FC</span>
+                        <div class="logo-text">
+                            <span class="logo-name">Fish & Chips</span>
+                            <span class="logo-tagline">Downey's Favorite Since Day One</span>
+                        </div>
+                    </div>
+                    <p>Downey's favorite spot for crispy, hand-battered fish and chips. Family-owned, fresh daily, and always delicious.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#menu">Menu</a></li>
+                        <li><a href="#why-us">Why Us</a></li>
+                        <li><a href="#reviews">Reviews</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Popular Items</h4>
+                    <ul>
+                        <li><a href="#menu">Fish & Chips</a></li>
+                        <li><a href="#menu">Shrimp & Chips</a></li>
+                        <li><a href="#menu">Fish Tacos</a></li>
+                        <li><a href="#menu">Clam Chowder</a></li>
+                        <li><a href="#menu">Family Packs</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact Us</h4>
+                    <p><a href="tel:5628618714">(562) 861-8714</a></p>
+                    <p>10339 Lakewood Blvd<br>Downey, CA 90241</p>
+                    <p>Mon-Sat: 11AM - 9PM</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Fish & Chips Downey. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <div class="mobile-cta" id="mobileCta">
+        <a href="tel:5628618714" class="btn btn-primary btn-full">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+            Call to Order: (562) 861-8714
+        </a>
+    </div>
+
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">&uarr;</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
